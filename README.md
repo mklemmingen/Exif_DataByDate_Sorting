@@ -97,6 +97,10 @@ Overall, this script provides a robust and automated solution for file organizat
     - Read sorting log file.
     - Start file sorting.
     - Listen for Ctrl+Z to stop all processes.
+   
+-----------------
+
+I created this script as part of an effort to digitalise old family media (hi8, vhs, jvhs, pictures, restored hard drives etc.)
 
 
   
