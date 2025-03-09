@@ -5,8 +5,8 @@ const readline = require('readline');
 
 const rootDir = process.cwd();
 const filesWithoutHandleDir = path.join(rootDir, 'filesWithoutHandle');
-const mediaRootDir = path.join(rootDir, 'FamilienMedien');
-const dataRootDir = path.join(rootDir, 'FamilienDaten');
+const mediaRootDir = path.join(rootDir, 'Media');
+const dataRootDir = path.join(rootDir, 'Data');
 const unableToSortDir = path.join(rootDir, 'unableToSort');
 
 let unableToSortExtensions = new Set();
@@ -297,7 +297,7 @@ function checkDirectory(dir, log) {
         const criticalFolders = [
             'System Volume Information', 'exiftool_files', 'node_modules', 'AppData', 'ProgramData',
             'Windows', 'Program Files', 'Program Files (x86)', 'Users', 'filesWithoutHandle',
-            'System', 'Library', 'Applications', 'FamilienDaten', "high_prob_nsfw", "FamilienMedien", "FamilienDaten",
+            'System', 'Library', 'Applications', 'Data', "high_prob_nsfw", "Media", 
             'bin', 'boot', 'dev', 'etc', 'lib', 'proc', 'root', 'sbin', 'usr', 'var', 'neuralModelsForImageClassification', "$RECYCLE.BIN"
         ];
 
